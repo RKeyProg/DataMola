@@ -1,0 +1,25 @@
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials__img {
+    width: 100%;
+    height: 100%;
+}
+
+.socials__item {
+    margin-right: 2.5rem;
+}
+
+.socials__item a {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: var(--color-white);
+}
+
+.socials__item a:hover {
+    fill: #a578e1;
+}

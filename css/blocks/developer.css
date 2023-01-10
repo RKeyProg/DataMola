@@ -1,0 +1,52 @@
+.developer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer__person {
+    width: 27%;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.developer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+}
+
+.developer__avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: 3rem;
+}
+
+.developer__data {
+    width: 100%;
+}
+
+.developer__data table{
+    width: 100%;
+}
+
+.developer__data tr {
+    line-height: 2.4rem;
+}
+
+.developer__data td:last-child, .developer__content {
+    color: var(--dark-blue);
+}
+
+.developer__content > * {
+    margin-bottom: 2.5rem;
+}
+
+.developer__content > *:last-child {
+    margin-bottom: 0;
+}

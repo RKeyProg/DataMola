@@ -1,0 +1,21 @@
+.menu__list {
+    display: flex;
+}
+
+.menu__item a {
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    margin-right: 3.75rem;
+    border-radius: 100px;
+    transition: all .3s ease;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.menu__item a:hover{
+    border-color: var(--color-white);
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}

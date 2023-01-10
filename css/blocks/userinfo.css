@@ -1,0 +1,14 @@
+.userinfo {
+    display: flex;
+    margin-left: 18%;
+}
+
+.userinfo p {
+    text-align: right;
+    margin-right: 2rem;
+} 
+
+.userinfo h1 {
+    line-height: 4rem;
+    flex-basis: 25rem;
+}
