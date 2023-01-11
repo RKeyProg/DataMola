@@ -1,5 +1,4 @@
 .about {
-    padding: 30vh 0 5rem 0;
-    background: var(--light-gray);
-    color: var(--gray);
+    height: 100vh;
+    padding: 30vh 0 7rem 0;
 }

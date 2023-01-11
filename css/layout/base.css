@@ -65,7 +65,8 @@ body {
     font-size: var(--base-font-size);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: var(--color-white);
+    background: var(--light-gray);
+    color: var(--gray);
 }
 
 .wrapper {
@@ -82,6 +83,7 @@ body {
 
 .container {
     width: 95%;
+    height: 100%;
     max-width: var(--container-width);
     margin: 0 auto;
     position: relative;
@@ -106,4 +108,9 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
 }
