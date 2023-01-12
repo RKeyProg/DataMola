@@ -1,6 +1,7 @@
 .userinfo {
     display: flex;
-    margin-left: 18%;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .userinfo p {
