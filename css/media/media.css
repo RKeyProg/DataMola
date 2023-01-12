@@ -47,8 +47,8 @@
     }
 
     .slider__arrow {
+        display: flex;
         width: 1.7rem;
-        height: 1.7rem;
     }
 }
 
@@ -63,6 +63,10 @@
 
     h1 {
         font-size: 3rem;
+    }
+
+    .hamburger {
+        display: block;
     }
 
     .userinfo {
@@ -150,5 +154,9 @@
 
     .footer__socials .socials__item {
         margin: 1rem;
+    }
+
+    .skills-row__list {
+        flex-wrap: wrap;
     }
 }
